@@ -1,5 +1,5 @@
 ---
-date: '2011-11-16 17:16:41'
+date: '2012-03-01 17:16:41'
 layout: post
 slug: 'precommit-hook'
 status: publish
@@ -10,18 +10,22 @@ categories:
 - Setup
 ---
 
-_This post is republished from the [Yipit Django Blog](http://tech.yipit.com):_
+h1. {{ page.title }}
 
-[![](/images/hook-183x300.jpg)](/images/hook.jpg)A pre-commit hook is a piece of code that runs before every commit and determines whether or not the commit should be accepted. Think of it as the gatekeeper to your codebase. 
+_This post is republished from the "Yipit Django Blog":http://tech.yipit.com_
 
-Want to ensure you didn't accidentally leave any [PDB](http://docs.python.org/library/pdb.html)s in your code? Pre-commit hook. Want to make sure your javascript is [JSHint](http://www.jshint.com/) approved? Pre-commit hook. Want to guarantee clean, readable [PEP8](http://www.python.org/dev/peps/pep-0008/)-compliant code? Pre-commit hook. Want to pipe all of the comments in your codebase through [Strunk & White](http://en.wikipedia.org/wiki/The_Elements_of_Style)? Please don't.
+p(meta). 20 Dec 2011 - New York
+
+!http://tech.yipit.com/images/hook-183x300.jpg! A pre-commit hook is a piece of code that runs before every commit and determines whether or not the commit should be accepted. Think of it as the gatekeeper to your codebase. 
+
+Want to ensure you didn't accidentally leave any "PDBs":http://docs.python.org/library/pdb.html in your code? Pre-commit hook. Want to make sure your javascript is "JSHint":http://www.jshint.com/ approved? Pre-commit hook. Want to guarantee clean, readable "PEP8":http://www.python.org/dev/peps/pep-0008/ -compliant code? Pre-commit hook. Want to pipe all of the comments in your codebase through "Strunk & White":http://en.wikipedia.org/wiki/The_Elements_of_Style? Please don't.
 
 The pre-commit hook is just an executable file that runs before every commit. If it exits with zero status, the commit is accepted. If it exits with a non-zero status, the commit is rejected. (Note: A pre-commit hook can be bypassed by passing the `--no-verify` argument.)
 
-Along with the pre-commit hook there are numerous other git hooks that are available: post-commit, post-merge, pre-receive, and others that can be found [here](http://book.git-scm.com/5_git_hooks.html). 
+Along with the pre-commit hook there are numerous other git hooks that are available: post-commit, post-merge, pre-receive, and others that can be found "here":http://book.git-scm.com/5_git_hooks.html.
 
 **Why Most Pre-Commit Hooks are Wrong**
-[![](/images/hook2-300x200.jpg)](/images/hook2.jpg)Be wary of the above's example as the majority of pre-commit hooks you'll see on the web are wrong. Most test against whatever files are currently on disk, not what is in the staging 
+!http://tech.yipit.com/images/hook2-300x200.jpg! Be wary of the above's example as the majority of pre-commit hooks you'll see on the web are wrong. Most test against whatever files are currently on disk, not what is in the staging 
 area (the files actually being committed). 
 
 We avoid this in our hook by stashing all changes that are not part of the staging area before running our checks and then popping the changes afterwards. This is very important because a file could be fine on disk while the changes that are being committed are wrong.
@@ -33,23 +37,4 @@ The code below is the pre-commit hook we use at Yipit. Our hook is simply a set 
 To use this hook or a hook that you create yourself, simply copy the file to .git/hooks/pre-commit inside of your project and make sure that it is executable or add in to your git repo and setup a symlink. 
 
 
-_[Steve Pulec](https://twitter.com/spulec) is a Developer at Yipit._
-
-_To find out about future posts, you can follow along using:_
-
-
-
-
-
-
-	
-  * [RSS](http://feeds.feedburner.com/YipitDjangoBlog)
-
-	
-  * [Sign-up for email newsletter](http://feedburner.google.com/fb/a/mailverify?uri=YipitDjangoBlog&amp;loc=en_US)
-
-	
-  * Twitter account: [YipitDjango](http://twitter.com/yipitdjango)
-
-
-
+_"Steve Pulec":https://twitter.com/spulec is a Developer at Yipit._
