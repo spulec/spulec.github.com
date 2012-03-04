@@ -14,7 +14,7 @@ h1. {{ page.title }}
 
 _This post is republished from the "Yipit Django Blog":http://tech.yipit.com_
 
-p(meta). 20 Dec 2011 - New York
+p(meta). 03 Mar 2012 - New York
 
 !http://tech.yipit.com/images/hook-183x300.jpg! A pre-commit hook is a piece of code that runs before every commit and determines whether or not the commit should be accepted. Think of it as the gatekeeper to your codebase. 
 
