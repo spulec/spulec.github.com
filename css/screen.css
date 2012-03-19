@@ -75,6 +75,33 @@ ul.posts {
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
   }
+  
+  ul.posts pre {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    padding: 0 .2em;
+  }
+  
+  ul.posts code {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    font-size: 85%;
+    padding: 0 .2em;
+  }
+  
+  ul.posts pre code {
+    border: none;
+  }
+  
+  ul.posts pre.terminal {
+    border: 1px solid black;
+    background-color: #333;
+    color: white;
+  }
+
+  ul.posts pre.terminal code {
+    background-color: #333;
+  }
 
 /*****************************************************************************/
 /*
