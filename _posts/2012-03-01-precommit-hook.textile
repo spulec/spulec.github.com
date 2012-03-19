@@ -12,7 +12,7 @@ categories:
 
 h1. {{ page.title }}
 
-_This post is republished from the "Yipit Django Blog":http://tech.yipit.com_
+_This post is republished from the "Yipit Django Blog":http://tech.yipit.com/2011/11/16/183772396/_
 
 p(meta). 03 Mar 2012 - New York
 
