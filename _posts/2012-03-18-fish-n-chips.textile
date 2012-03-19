@@ -11,9 +11,9 @@ h1. {{ page.title }}
 
 p(meta). 18 Mar 2012 - New York
 
-!/img/fish_n_chips.jpg! I love a good plate of fish and chips. I also love a good chance to compare the software development field to a completely separate industry. It's a great way to find solutions to problems that have been solved decades ago in other fields( genealogy for "example":http://www.informit.com/articles/article.aspx?p=1848528) and it helps to keep me grounded in the good 'ol practical reality.
+!/img/fish_n_chips.jpg! I love a good plate of fish and chips. I also love a good chance to compare the software development field to a completely separate industry. It's a great way to find solutions to problems that have been solved decades ago in other fields (genealogy for "example":http://www.informit.com/articles/article.aspx?p=1848528) and it helps to keep me grounded in the good 'ol practical reality.
 
-I came across a great example of this today while watching _Diners, Drive-Ins and Dives_ with Guy Fieri. It involves the owner of a fish and chips shop( Grant) talking to Guy about how they make their Toad in the Hole. There is a clip of the sequence "here":http://www.youtube.com/watch?v=kqGCH9h6sf0. Fast forward to about 5:10. For those unable to watch, the clip goes like this:
+I came across a great example of this today while watching _Diners, Drive-Ins and Dives_ with Guy Fieri. It involves the owner of a fish and chips shop (Grant) talking to Guy about how they make their Toad in the Hole. There is a clip of the sequence "here":http://www.youtube.com/watch?v=kqGCH9h6sf0. Fast forward to about 5:10. For those unable to watch, the clip goes like this:
 
 bc.. Guy: And the gravy? Mirepoix, drippings from the sausage?
 Grant: Yeah, no none of that.
@@ -24,7 +24,7 @@ been able to replicate that, with no shame, is a powdered gravy.
 Guy: Seriously?
 Grant: Seriously.
 
-p. This dialogue jumped out at me. Guy was expecting this renowned shop to be using an industry-standard technique, but the chef had decided to do otherwise. He was using something which would certainly be considered inferior( powdered gravy) and even shameful by some, but he was doing it because he thought it gave him the best result. He ignored the fact that it was not industry-standard, that it was not the pretty solution, that it was even considered shameful. He ignored all of that because he knew it would result in a better experience for his users.
+p. This dialogue jumped out at me. Guy was expecting this renowned shop to be using an industry-standard technique, but the chef had decided to do otherwise. He was using something which would certainly be considered inferior (powdered gravy) and even shameful by some, but he was doing it because he thought it gave him the best result. He ignored the fact that it was not industry-standard, that it was not the pretty solution, that it was even considered shameful. He ignored all of that because he knew it would result in a better experience for his users.
 
 I imagined him posting his recipe to his equivalent of Hacker News and being ridiculed by all of the other chefs for using a powdered gravy.
 
