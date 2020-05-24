@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steve Pulec</title>
+    <link>http://stevepulec.com/</link>
+    <description>Recent content on Steve Pulec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://stevepulec.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>Small teams</title>
+      <link>http://stevepulec.com/posts/small/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://stevepulec.com/posts/small/</guid>
+      <description>Patrick Collison has a great list of people quickly accomplishing ambitious things. Inspired by that, I created a page of impressive things accomplished by small teams.
+  Instagram had 13 employees when they were acquired by Facebook for $1 billion. They had 30 millions users at the time. Source
+  Mojang (the company behind Minecraft) had 37 employees when they were acquired by Microsoft for $2.5 billion. At that time, Mojang had revenue of about $290 million annually with profits of over $100 million.</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>What Software Developers Can Learn From Fish and Chips</title>
+      <link>http://stevepulec.com/posts/2012-03-18-fish-n-chips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://stevepulec.com/posts/2012-03-18-fish-n-chips/</guid>
+      <description>I love a good plate of fish and chips. I also love a good chance to compare the software development field to a completely separate industry. It&amp;rsquo;s a great way to find solutions to problems that have been solved decades ago in other fields (genealogy for example) and it helps to keep me grounded in the good &amp;lsquo;ol practical reality.
+I came across a great example of this today while watching Diners, Drive-Ins and Dives with Guy Fieri.</description>
+    </item>
+    
+    
+  </channel>
+</rss>
